@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="485ee237-5491-4e44-88b0-8a24b2d1c669" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XcYNTCV1zG6qm5s3LMAwMPf9VB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ciic4020.set" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BagTest">
+    <configuration name="BagTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ciic4020.bag.test.BagTest" />
+      <module name="Lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ciic4020.bag.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ciic4020.set.test.SetTest" />
+      <module name="Lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ciic4020.set.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SetTest" />
+        <item itemvalue="Application.BagTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="485ee237-5491-4e44-88b0-8a24b2d1c669" name="Default Changelist" comment="" />
+      <created>1581346810839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581346810839</updated>
+      <workItem from="1581346818169" duration="736000" />
+      <workItem from="1581353494840" duration="747000" />
+      <workItem from="1581361451884" duration="1580000" />
+      <workItem from="1581364306673" duration="426000" />
+      <workItem from="1581364864389" duration="124000" />
+      <workItem from="1581365230370" duration="1101000" />
+      <workItem from="1581444760463" duration="3707000" />
+      <workItem from="1581466357821" duration="16000" />
+      <workItem from="1581466424816" duration="4147000" />
+      <workItem from="1581617588837" duration="3898000" />
+      <workItem from="1581629071261" duration="4713000" />
+      <workItem from="1581791112047" duration="2452000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="513" y="365" width="847" height="684" key="#Project_Structure" timestamp="1581346919149">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="513" y="365" width="847" height="684" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1581346919149" />
+    <state x="801" y="266" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1581631671220">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="801" y="266" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1581631671220" />
+    <state x="463" y="144" key="Github.ShareDialog" timestamp="1581651700359">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="463" y="144" key="Github.ShareDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581651700359" />
+    <state width="1807" height="275" key="GridCell.Tab.0.bottom" timestamp="1581364732019">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="275" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1581364732019" />
+    <state width="1807" height="275" key="GridCell.Tab.0.center" timestamp="1581364732018">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="275" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1581364732018" />
+    <state width="1807" height="275" key="GridCell.Tab.0.left" timestamp="1581364732017">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="275" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1581364732017" />
+    <state width="1807" height="275" key="GridCell.Tab.0.right" timestamp="1581364732019">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="275" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1581364732019" />
+    <state x="482" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1581620833724">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="188" width="1022" height="737" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1581620833724" />
+    <state x="649" y="328" width="688" height="397" key="com.intellij.ide.util.TipDialog" timestamp="1581791116659">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="328" width="688" height="397" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581791116659" />
+    <state x="665" y="449" width="646" height="231" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581620711986">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="665" y="449" width="646" height="231" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/67.27.1853.1053@67.27.1853.1053" timestamp="1581620711986" />
+    <state x="760" y="258" width="456" height="597" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581630731159">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="760" y="258" width="456" height="597" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581630731159" />
+    <state x="637" y="254" width="710" height="807" key="find.popup" timestamp="1581447043619">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="637" y="254" width="710" height="807" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1581447043619" />
+    <state x="689" y="182" width="598" height="750" key="refactoring.ChangeSignatureDialog" timestamp="1581447900525">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="689" y="182" width="598" height="750" key="refactoring.ChangeSignatureDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581447900525" />
+    <state x="656" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1581475599202">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="259" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1581475599202" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ciic4020/set/StaticSet.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
