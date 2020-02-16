@@ -17,20 +17,18 @@ public class DynamicSet<E> implements Set<E> {
 		this.maxCapacity = initialCapacity;
 	}
 
-    public static boolean checkDisjoint(Set<Integer>[] sets) {
+	public static boolean checkDisjoint(Set<Integer>[] sets) {
 
-		Set result = new StaticSet(sets.length);
-
-		for (int i = 0; i < sets.length; i++) {
-			//iterate till last array
-			for (int j = i + 1; j < sets.length - 1; j ++){
-				result.add(((StaticSet)sets[i]).intersection((StaticSet)sets[j]));
+		for (int i = 0; i < sets.length - 1; i++) {
+			for (int j = i + 1; j < sets.length ; j ++){
+				if(sets[i].intersection(sets[j]).isEmpty())
+					return true;
 			}
 		}
-		return result.isEmpty();
-    }
+		return false;
+	}
 
-    @Override
+	@Override
 	public Iterator<E> iterator() {
 		return theSet.iterator();
 	}

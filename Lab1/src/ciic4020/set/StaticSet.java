@@ -183,16 +183,16 @@ public class StaticSet<E> implements Set<E> {
 	public Iterator<E> iterator() { return new SetIterator<E>(); }
 
 
-	public static boolean checkDisjoint (Object[] sets){
+	 static public boolean checkDisjoint (Object[] sets){
 
-		StaticSet result = new StaticSet(sets.length);
-
-		for (int i = 0; i < sets.length; i++) {
-			for (int j = i + 1; j < sets.length - 1; j ++){
-				result.add(((StaticSet)sets[i]).intersection((StaticSet)sets[j]));
+		//i < sets.length - 1 to avoid redundancy
+		for (int i = 0; i < sets.length -1; i++) {
+			for (int j = i + 1; j < sets.length; j ++){
+				if(((StaticSet)sets[i]).intersection((StaticSet)sets[j]).isEmpty())
+					return true;
 			}
 		}
-		return result.isEmpty();
+		return true;
 	}
 
 }
