@@ -111,8 +111,8 @@ public class StaticBag implements Bag {
 		Bag result = new StaticBag(this.currentSize);
 
 		for (int i = 0; i < this.currentSize; i++) {
-			if(this.count(this.elements[i]) > this.count(obj) && !result.isMember(obj))
-				result.add(obj);
+			if(this.count(obj) < this.count(this.elements[i])  &&  !result.isMember(this.elements[i]))
+				result.add(this.elements[i]);
 		}
 		return result;
 	}

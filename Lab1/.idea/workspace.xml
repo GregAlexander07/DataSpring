@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="485ee237-5491-4e44-88b0-8a24b2d1c669" name="Default Changelist" comment="" />
+    <list default="true" id="485ee237-5491-4e44-88b0-8a24b2d1c669" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ciic4020/bag/StaticBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ciic4020/bag/StaticBag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ciic4020/set/DynamicSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ciic4020/set/DynamicSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ciic4020/set/StaticSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ciic4020/set/StaticSet.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XcYNTCV1zG6qm5s3LMAwMPf9VB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,11 +36,13 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,7 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BagTest">
+  <component name="RunManager" selected="JUnit.Lab1Tester">
     <configuration name="BagTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ciic4020.bag.test.BagTest" />
       <module name="Lab1" />
@@ -77,8 +89,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lab1Tester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ciic4020.lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ciic4020.lab1" />
+      <option name="MAIN_CLASS_NAME" value="ciic4020.lab1.Lab1Tester" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab1Tester.testDisjoint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ciic4020.lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ciic4020.lab1" />
+      <option name="MAIN_CLASS_NAME" value="ciic4020.lab1.Lab1Tester" />
+      <option name="METHOD_NAME" value="testDisjoint" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Lab1Tester" />
+        <item itemvalue="JUnit.Lab1Tester.testDisjoint" />
         <item itemvalue="Application.SetTest" />
         <item itemvalue="Application.BagTest" />
       </list>
@@ -106,6 +151,8 @@
       <workItem from="1581617588837" duration="3898000" />
       <workItem from="1581629071261" duration="4713000" />
       <workItem from="1581791112047" duration="2452000" />
+      <workItem from="1581796323832" duration="5161000" />
+      <workItem from="1581803332178" duration="1603000" />
     </task>
     <servers />
   </component>
@@ -125,30 +172,46 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="463" y="144" key="Github.ShareDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581651700359" />
-    <state width="1807" height="275" key="GridCell.Tab.0.bottom" timestamp="1581364732019">
+    <state width="1807" height="347" key="GridCell.Tab.0.bottom" timestamp="1581803514615">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="275" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1581364732019" />
-    <state width="1807" height="275" key="GridCell.Tab.0.center" timestamp="1581364732018">
+    <state width="1807" height="347" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1581803514615" />
+    <state width="1807" height="347" key="GridCell.Tab.0.center" timestamp="1581803514615">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="275" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1581364732018" />
-    <state width="1807" height="275" key="GridCell.Tab.0.left" timestamp="1581364732017">
+    <state width="1807" height="347" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1581803514615" />
+    <state width="1807" height="347" key="GridCell.Tab.0.left" timestamp="1581803514615">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="275" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1581364732017" />
-    <state width="1807" height="275" key="GridCell.Tab.0.right" timestamp="1581364732019">
+    <state width="1807" height="347" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1581803514615" />
+    <state width="1807" height="347" key="GridCell.Tab.0.right" timestamp="1581803514615">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="275" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1581364732019" />
+    <state width="1807" height="347" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1581803514615" />
+    <state width="1807" height="347" key="GridCell.Tab.1.bottom" timestamp="1581803514616">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="347" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1581803514616" />
+    <state width="1807" height="347" key="GridCell.Tab.1.center" timestamp="1581803514616">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="347" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1581803514616" />
+    <state width="1807" height="347" key="GridCell.Tab.1.left" timestamp="1581803514615">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="347" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1581803514615" />
+    <state width="1807" height="347" key="GridCell.Tab.1.right" timestamp="1581803514616">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="347" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1581803514616" />
     <state x="482" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1581620833724">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="188" width="1022" height="737" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1581620833724" />
-    <state x="649" y="328" width="688" height="397" key="com.intellij.ide.util.TipDialog" timestamp="1581791116659">
+    <state x="649" y="328" width="688" height="397" key="com.intellij.ide.util.TipDialog" timestamp="1581803332830">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="328" width="688" height="397" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581791116659" />
+    <state x="649" y="328" width="688" height="397" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581803332830" />
     <state x="665" y="449" width="646" height="231" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581620711986">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -177,6 +240,11 @@
           <url>file://$PROJECT_DIR$/src/ciic4020/set/StaticSet.java</url>
           <line>164</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ciic4020/lab1/Lab1Tester.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

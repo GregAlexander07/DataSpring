@@ -159,11 +159,7 @@ public class StaticSet<E> implements Set<E> {
 		return true;
 	}
 
-	/*
-Given a set A = {x 0 , x 1 , ..., x n }, the
-singleton set of A is a collection of sets (i.e. a set of sets), each containing only one element of A:
-S = {{x 0 }, {x 1 }, ...., {x n }}. The prototype for the method is as follows:
- */
+
 	@Override
 	public Set<Set<E>> singletonSets() {
 
@@ -187,20 +183,16 @@ S = {{x 0 }, {x 1 }, ...., {x n }}. The prototype for the method is as follows:
 	public Iterator<E> iterator() { return new SetIterator<E>(); }
 
 
-
 	public static boolean checkDisjoint (Object[] sets){
 
-		Set result = new StaticSet(sets.length);
+		StaticSet result = new StaticSet(sets.length);
 
-		//iterate through each element of sets
 		for (int i = 0; i < sets.length; i++) {
-			//iterate till last array
-			for (int j = i + 1; j < sets.length; j ++){
+			for (int j = i + 1; j < sets.length - 1; j ++){
 				result.add(((StaticSet)sets[i]).intersection((StaticSet)sets[j]));
 			}
 		}
 		return result.isEmpty();
-
 	}
 
 }
